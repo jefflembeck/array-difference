@@ -1,13 +1,13 @@
 {
   "name": "array-difference-linear",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Given array a and array b, returns a - b",
   "main": "index.js",
   "scripts": {
     "test": "tap test/*.js --cov"
   },
-  "engines" : {
-    "node" : ">=4.0"
+  "engines": {
+    "node": ">=4.0"
   },
   "keywords": [
     "array",
