@@ -1,5 +1,5 @@
 {
-  "name": "array-difference",
+  "name": "array-difference-linear",
   "version": "1.0.0",
   "description": "Given array a and array b, returns a - b",
   "main": "index.js",

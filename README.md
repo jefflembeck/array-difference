@@ -1,4 +1,4 @@
-# array-difference
+# array-difference-linear
 
 Given array a and array b, returns a - b, all in linear time!
 
