@@ -1,5 +1,5 @@
-var tap = require('tap');
-var arrayDifference = require('../index.js');
+const tap = require('tap');
+const arrayDifference = require('../index.js');
 
 
 var a, b;
@@ -23,3 +23,12 @@ tap.equal(arrayDifference(a, b).length, 0);
 a = [1,2,3];
 b = [2,3];
 tap.equal(arrayDifference(a, b)[0], 1);
+
+// Test array with multiple items of same value
+
+a = [1, 1, 2, 2, 3, 3];
+b = [2, 3];
+
+tap.equal(arrayDifference(a, b).length, 2);
+tap.equal(arrayDifference(a, b)[0], 1);
+tap.equal(arrayDifference(a, b)[1], 1);
