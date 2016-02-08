@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tap test/*.js --cov"
   },
+  "engines" : {
+    "node" : ">=4.0"
+  },
   "keywords": [
     "array",
     "set"
