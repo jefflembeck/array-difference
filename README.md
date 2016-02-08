@@ -11,10 +11,10 @@ returns an array of the difference
 
 ```
 
-var arrayDifference = require('array-difference');
+const arrayDifference = require('array-difference');
 
-var a = [1,2,3];
-var b = [2, 3, 4];
+const a = [1,2,3];
+const b = [2, 3, 4];
 
 arrayDifference(a, b);
 // -> [1]
